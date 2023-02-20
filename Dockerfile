@@ -7,3 +7,6 @@ COPY printheadlines.rb /src/
 USER www-data
 
 CMD [ "ruby", "printheadlines.rb" ]
+
+# docker build -t ruby-headline .
+# docker run ruby-headline
